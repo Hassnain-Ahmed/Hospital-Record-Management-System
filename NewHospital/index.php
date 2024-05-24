@@ -6,6 +6,7 @@ echo '<script src="" type="text/javascript"></script>';
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,41 +18,37 @@ echo '<script src="" type="text/javascript"></script>';
     <link rel="stylesheet" href="fontawesome/css/all.css">
     <link rel="stylesheet" href="index.css">
 
-    
+
 
 
 </head>
-<body style="background-image: linear-gradient(rgb(0,0,0, .1),rgb(0,0,0, .7)), url(src/index.jpg); background-size:cover; backdrop-filter: blur(15px);">
-        
+
+<body
+    style="background-image: linear-gradient(rgb(0,0,0, .1),rgb(0,0,0, .7)), url(src/index.jpg); background-size:cover; backdrop-filter: blur(15px);">
+
 
     <?php
-    $con = mysqli_connect("localhost","root","","hms");
+    $con = mysqli_connect("localhost", "root", "", "hms");
     $trigger = 0;
     $trigger2 = 0;
-    if(isset($_POST['sub']))
-    {
+    if (isset($_POST['sub'])) {
         session_start();
 
 
         $username = $_POST['username'];
         $password = $_POST['password'];
-        if($username and $password)
-        {
-            $query = mysqli_query($con, "SELECT * from signup WHERE username = '$username' and password ='$password'");
-            if(mysqli_num_rows($query))
-            {
+        if ($username && $password) {
+            $query = mysqli_query($con, "SELECT * from signup WHERE si_username = '$username' AND si_password ='$password'");
+            $result = mysqli_num_rows($query);
+            if ($result) {
                 $get = mysqli_fetch_assoc($query);
                 $id = $get['si_id'];
                 $_SESSION['login'] = $id;
                 header("Location:home.php");
-            }
-            else
-            {
+            } else {
                 $trigger = 1;
             }
-        }
-        else
-        {
+        } else {
             $trigger2 = 1;
         }
     }
@@ -67,12 +64,9 @@ echo '<script src="" type="text/javascript"></script>';
 
             <div id='login-msg-box'>
                 <?php
-                if($trigger == 1)
-                {
+                if ($trigger == 1) {
                     echo "<span class='red'>Incorrect Username or Password</span>";
-                }
-                else if($trigger2 == 1)
-                {
+                } else if ($trigger2 == 1) {
                     echo "<span class='red'>Enter Username and Password</span>";
                 }
                 ?>
@@ -85,4 +79,5 @@ echo '<script src="" type="text/javascript"></script>';
     </form>
 
 </body>
+
 </html>
