@@ -88,13 +88,13 @@ If you would like to contribute to this project, please fork the repository and 
 This project is licensed under the MIT License. See the `LICENSE` file for more details.
 
 ### Screenshots
-- [Screenshots 1]("https://i.imgur.com/KiItBrb.png")
-- [Screenshots 2](https://i.imgur.com/KVQEcH1.png)
-- [Screenshots 3](https://i.imgur.com/qIMBgTj.png)
-- [Screenshots 4](https://i.imgur.com/iRsoYNA.png)
-- [Screenshots 5](https://i.imgur.com/GyWa3oh.png)
-- [Screenshots 6](https://i.imgur.com/cB2GsHa.png)
-- [Screenshots 7](https://i.imgur.com/bR3lxmj.png)
-- [Screenshots 8](https://i.imgur.com/ys9uPW7.png)
-- [Screenshots 9](https://i.imgur.com/fa5veQq.png)
+- ![Screenshots 1](https://i.imgur.com/KiItBrb.png)
+- ![Screenshots 2](https://i.imgur.com/KVQEcH1.png)
+- ![Screenshots 3](https://i.imgur.com/qIMBgTj.png)
+- ![Screenshots 4](https://i.imgur.com/iRsoYNA.png)
+- ![Screenshots 5](https://i.imgur.com/GyWa3oh.png)
+- ![Screenshots 6](https://i.imgur.com/cB2GsHa.png)
+- ![Screenshots 7](https://i.imgur.com/bR3lxmj.png)
+- ![Screenshots 8](https://i.imgur.com/ys9uPW7.png)
+- ![Screenshots 9](https://i.imgur.com/fa5veQq.png)
 
