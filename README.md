@@ -88,7 +88,7 @@ If you would like to contribute to this project, please fork the repository and 
 This project is licensed under the MIT License. See the `LICENSE` file for more details.
 
 ### Screenshots
-- [Screenshots 1](https://i.imgur.com/KiItBrb.png)
+- [Screenshots 1]("https://i.imgur.com/KiItBrb.png")
 - [Screenshots 2](https://i.imgur.com/KVQEcH1.png)
 - [Screenshots 3](https://i.imgur.com/qIMBgTj.png)
 - [Screenshots 4](https://i.imgur.com/iRsoYNA.png)
